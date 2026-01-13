@@ -57,7 +57,7 @@ function TabelaGestao() {
 
   return (
     <div style={{ height: '40rem', width: '100%' }}>
-      <DataGrid sx={{ color:'#ffffff', bgcolor:'#26405f', '& .MuiDataGrid-row:hover':{bgcolor:'#5d7599'}, '& .MuiDataGrid-cell:hover':{color:'#26405f'}, '& .MuiDataGrid-columnHeader':{bgcolor:'#041C32'}, }} rows={rows} columns={columns} />
+      <DataGrid sx={{ m: 4 }} rows={rows} columns={columns} />
     </div>
   )
 }
